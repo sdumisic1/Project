@@ -1,0 +1,59 @@
+.meni ul li:nth-child(3) a:link {
+    text-decoration: none;
+    }
+.sadrzaj {
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+form {
+    background-color: lightgrey;
+    height: 100%;
+    width: 80%;
+    margin-left: 8%;
+    padding-top: 2%;
+    border: solid 0.5px darkblue;
+    padding-left: 5%;
+}
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    width: 40%;
+    font-size:100%;
+    height: 10%;
+}
+#naziv, #brojMjesta, #odgovornOsoba, #sprat {
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 25%;
+    padding-bottom: 1%;
+}
+input[type="submit"]  {
+    float: right;
+    margin-right: 35%;
+    text-align: center;
+    width: 23%;
+    height: 8%;
+    padding-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 600px){
+    label {
+        padding-bottom: 1%;
+        width: 60%;
+        display:block;
+    }
+    input[type="submit"] {
+        margin-top: 3%;
+    }
+    
+    
+    
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zadatak 4</title>
+        <link rel="stylesheet" href="meni.css">
+        <link rel="stylesheet" href="rezervacije.css">
+        
+        <meta charset="utf-8">
+    </head>
+    <body onload="ucitaj(),pokreni()">
+    <div id="okvir" >
+	
+            <div class="meni">
+                <div class="logo">
+                    <img id="logo" src="https://img.crocdn.co.uk/images/products2/pl/20/00/01/52/pl2000015250.jpg?width=940&height=940" alt="Logo" >       
+                </div>
+                <ul>
+                    <li><a href="pocetna.html">Pocetna</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                    <li><a href="unos.html">Unos</a></li>
+                    <li><a href="rezervacije.html">Rezervacije</a></li>
+                    <li><a href="#">Osobe</a></li>
+                </ul>
+            </div>
+    <div class="sadrzaj">
+            <form name="forma1" >
+                <label >Odaberite salu:</label>
+                <select name="sale" onchange="funkcija1()">
+                  <option value="0-01">0-01</option>
+                  <option value="1-01">1-01</option>
+                  <option value="0-02">0-02</option>
+                  <option value="1-02">1-02</option>
+                  <option value="0-03">0-03</option>
+                  <option value="1-03">1-03</option>
+                  <option value="0-04">0-04</option>
+                  <option value="1-04">1-04</option>
+                  <option value="0-05">0-05</option>
+                  <option value="1-05">1-05</option>
+                  <option value="0-06">0-06</option>
+                  <option value="1-06">1-06</option>
+                  <option value="0-07">0-07</option>
+                  <option value="1-07">1-07</option>
+                  <option value="0-08">0-08</option>
+                  <option value="1-08">1-08</option>
+                  <option value="VA1">VA1</option>
+                  <option value="VA2">VA2</option>
+                  <option value="MA">MA</option>
+                  <option value="EE1">EE1</option>
+                  <option value="EE2">EE2</option>
+                </select>
+                <br><br>
+                
+                <input type="checkbox" name="box1" value="periodicna"> Rezervacija je periodicna.<br><br>
+                <label>Pocetak:</label>
+                <input type="time" name="pocetak" onchange="funkcija1()"><br><br>
+                <label>Kraj:</label>
+                <input type="time" name="kraj" onchange="funkcija1()"><br>
+              </form>
+
+              <div id="kalendar">
+                  
+              </div>
+              <button id="dugme1" onclick="pokreni1()">Prethodni</button>
+              <button id="dugme2" onclick="pokreni2()">Sljedeci</button>
+           </div>  
+        </div>
+        <script src="kalendar.js"></script>
+        <script src="kontroler.js"></script>
+        <script src="rezervacije.js"></script>
+        <script src="pozivi.js"></script>
+    </body>
+</html>

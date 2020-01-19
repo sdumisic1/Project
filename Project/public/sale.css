@@ -1,0 +1,75 @@
+.meni ul li:nth-child(2) a:link {
+text-decoration: none;
+}
+.sadrzaj {
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.tabelaSale{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 10%;
+    background-color: whitesmoke;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+      width: 30px;
+      height: 30px;
+      vertical-align: top;
+      padding-left: 1%;
+      padding-right: 2%;
+  }
+
+.headerSprat {
+    background-color: silver;
+    text-align: right;
+    padding-top: 2%;
+}
+.headerRedni {
+    background-color: lightslategrey;
+    text-align: left;
+}
+.slobodnaSala{
+    background-color: green;
+}
+.zauzetaSala {
+    background-color: orange;
+}
+.bezCelije{
+    background-color: lightblue;
+    border-top-color: lightblue;
+    border-left-color: lightblue;
+
+}
+.sala {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kancelarija {
+    background-color: grey;
+}
+
+#naslov {
+    text-align: center;
+}
+#redni{
+    vertical-align: bottom;
+    padding-left: 2%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .headerRedni, .headerSprat, .bezCelije {
+        display: none;
+    }
+}

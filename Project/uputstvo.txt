@@ -1,0 +1,8 @@
+Nad ovim repozitorijem pokrenuti u command prompt ukucati npm init
+te nakon toga instalirati pakete koji se nalaze u package.json. (npr. npm install express)
+Nakon instalacije ukucati node index.js cime je server pokrenut.
+Otvoriti Http://localhost:8080/pocetna
+
+Implementiran je stranica za rezervacije Http://localhost:8080/rezervacije 
+koja na kalendaru prikazuje dostupnost odredjene sale za odredjeno vrijeme.
+Moguce je rezervisati salu ako je slobodnam, a lista zauzeca se cuva u JSON fajlu.

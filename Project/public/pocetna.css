@@ -1,0 +1,59 @@
+.meni ul li:nth-child(1) a:link {
+    text-decoration: none;
+    }
+.sadrzaj {
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr));
+    margin-left: 10%;
+	margin-top: 2%;
+	margin-right: 5%;
+    margin-bottom: 4%;
+    padding-left: 3%;
+    grid-gap: 10px;
+    }
+  .grid img {
+    max-width: 100%;
+    width: 25vh;
+    height: 20vh;
+  }
+  #dugme3 {
+    background-color: lightgrey;
+    width: 20%;
+    margin-left: 17%;
+    
+    padding: 2% 2% 2% 2%;
+    border: 1.5px solid darkblue;
+}
+#dugme4 {
+    background-color: lightgrey;
+    width: 20%;
+    padding: 2% 2% 2% 2%;
+    float: right;
+    margin-right: 25%;
+    border: 1.5px solid darkblue;
+}
+
+  @media only screen and (min-width:600px) and (max-width:1000px) {
+      
+  }
+
+  @media only screen and (max-width: 600px){
+      .grid {
+          width: 70%;
+          height: 100%;
+      }
+      /*80 posto od izvorne(25vh-->20vh)*/
+      .grid img{
+          width: 20vh;
+          height: 16vh;
+      }
+  }
